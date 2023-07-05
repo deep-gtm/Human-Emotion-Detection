@@ -40,23 +40,28 @@ Link : https://huggingface.co/spaces/deep42/Human-Emotion-Detection
      - The pre-trained model's learned representations and knowledge are leveraged as a starting point for the new task, allowing for faster and more effective training with limited data.
      - Transfer learning enables the transfer of general knowledge across tasks, benefiting from the features and patterns learned by the pre-trained model.
 
-4. Fine Tunning:
+3. Fine Tunning:
      - Fine-tuning is a transfer learning technique that adapts a pre-trained model to a new task.
      - It involves reusing the learned representations of the pre-trained model and training new layers on a task-specific dataset.
      - Fine-tuning allows for faster convergence and better performance, particularly when data is limited or the tasks are similar.
-5. Visualizing Intermediate Layer.
-6. GradCam Method :
+4. Visualizing Intermediate Layer.
+5. GradCam Method :
      - Grad-CAM is a visualization technique used to understand deep neural networks.
      - It highlights important regions in an input image that contribute to a network's prediction for a specific class.
      - It computes gradients, weights activation maps, and overlays them on the image to visualize areas of focus.
   
-7. ViT (Vision Transformer):
+6. ViT (Vision Transformer):
      - Vision Transformer (ViT) is a deep learning architecture that applies the transformer model, originally developed for natural language processing (NLP), to computer vision tasks.
      - It replaces the traditional convolutional layers found in popular vision models with self-attention mechanisms used in transformers. ViT divides an image into patches and feeds them through a transformer encoder, enabling global interactions among patches.
      - It has shown promising performance on various image classification tasks and has gained attention for its ability to handle long-range dependencies in images.
      - In this project i create a vit model using TFViTModel.from_pretrained("google/vit-base-patch16-224-in21k")
-6. Grado :
+7. Grado :
      - Gradio is a Python library that helps you build and deploy web interfaces for machine learning models.
      - It simplifies the creation of interactive user interfaces, allowing users to input data and see real-time predictions or results from the model.
      - It supports various machine learning frameworks and is popular for creating interactive demonstrations of models.
-7. Huggingface and Huggingface spaces
+8. Huggingface and Huggingface spaces
+9. ONNX :
+      - ONNX (Open Neural Network Exchange) is an open-source format that enables interoperability between different deep learning frameworks.
+      - It allows you to train and deploy machine learning models using one framework and seamlessly transfer them to another framework for inference.
+      - ONNX provides a standardized way to represent models, including their architecture and trained parameters, allowing for efficient model sharing and deployment across platforms and devices.
+      - t supports a wide range of frameworks, including TensorFlow, PyTorch, and more, making it easier to work with models in a heterogeneous deep learning ecosystem.
