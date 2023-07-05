@@ -34,19 +34,23 @@ Link : https://huggingface.co/spaces/deep42/Human-Emotion-Detection
      - It achieves this balance through a compound scaling method that uniformly scales network depth, width, and resolution. EfficientNet uses a mobile inverted bottleneck structure inspired by MobileNetV2, which employs depth-wise separable convolutions to reduce computations.
      - By finding the optimal scaling factors, EfficientNet provides efficient models suitable for resource-constrained devices without sacrificing performance.
 
-2. Transfer Learning : Transfer learning is a machine learning technique where knowledge gained from training one model on a specific task is transferred and applied to another related task. Instead of training a model from scratch, transfer learning utilizes pre-trained models that have been trained on large-scale datasets, typically for generic tasks like image classification. The pre-trained model's learned representations and knowledge are leveraged as a starting point for the new task, allowing for faster and more effective training with limited data. Transfer learning enables the transfer of general knowledge across tasks, benefiting from the features and patterns learned by the pre-trained model.
+2. Transfer Learning :
+     - Transfer learning is a machine learning technique where knowledge gained from training one model on a specific task is transferred and applied to another related task.
+     - Instead of training a model from scratch, transfer learning utilizes pre-trained models that have been trained on large-scale datasets, typically for generic tasks like image classification.
+     - The pre-trained model's learned representations and knowledge are leveraged as a starting point for the new task, allowing for faster and more effective training with limited data.
+     - Transfer learning enables the transfer of general knowledge across tasks, benefiting from the features and patterns learned by the pre-trained model.
 
-3. Fine Tunning:
+4. Fine Tunning:
      - Fine-tuning is a transfer learning technique that adapts a pre-trained model to a new task.
      - It involves reusing the learned representations of the pre-trained model and training new layers on a task-specific dataset.
      - Fine-tuning allows for faster convergence and better performance, particularly when data is limited or the tasks are similar.
-4. Visualizing Intermediate Layer.
-5. GradCam Method :
+5. Visualizing Intermediate Layer.
+6. GradCam Method :
      - Grad-CAM is a visualization technique used to understand deep neural networks.
      - It highlights important regions in an input image that contribute to a network's prediction for a specific class.
      - It computes gradients, weights activation maps, and overlays them on the image to visualize areas of focus.
   
-6. ViT (Vision Transformer):
+7. ViT (Vision Transformer):
      - Vision Transformer (ViT) is a deep learning architecture that applies the transformer model, originally developed for natural language processing (NLP), to computer vision tasks.
      - It replaces the traditional convolutional layers found in popular vision models with self-attention mechanisms used in transformers. ViT divides an image into patches and feeds them through a transformer encoder, enabling global interactions among patches.
      - It has shown promising performance on various image classification tasks and has gained attention for its ability to handle long-range dependencies in images.
