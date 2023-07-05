@@ -12,24 +12,24 @@ Link : https://huggingface.co/spaces/deep42/Human-Emotion-Detection
 
 # Tools And Technology
 1. There are different convolution neural network which helped in computer vision tasks
-  a. Alex Net
+  1. Alex Net
      - AlexNet is a pioneering deep neural network architecture for computer vision.
      - It has convolutional layers, ReLU activations, max-pooling layers, and fully connected layers.
      - It introduced techniques like local response normalization and GPU training.
-  b. VGG
+  2. VGG
      - It has multiple convolutional layers with small filters, followed by max-pooling layers.
      - VGG16 and VGG19 are popular variants with 16 and 19 layers, respectively.
      - VGG is known for its simplicity and strong feature extraction capabilities.
      - However, it requires more computational resources due to its depth.
-  c. ResNet
+  3. ResNet
      - It introduced skip connections to tackle the vanishing gradient problem.
      - These connections allow information to bypass certain layers, enabling the training of very deep networks.
      - ResNet has a "bottleneck" design, using 1x1 convolutions to reduce computational complexity.
-  d. Mobile Net
+  4. Mobile Net
      - MobileNet is a lightweight neural network architecture designed specifically for mobile and embedded devices with limited computational resources.
      - It employs depth-wise separable convolutions, which split the standard convolutional operation into separate depth-wise and point-wise convolutions, reducing the computational complexity.
      - MobileNet achieves a good balance between model size and accuracy, making it well-suited for applications that require efficient inference on resource-constrained devices.
-  e. Efficient Net
+  5. Efficient Net
      - EfficientNet aims to strike a balance between model size, computational efficiency, and accuracy.
      - It achieves this balance through a compound scaling method that uniformly scales network depth, width, and resolution. EfficientNet uses a mobile inverted bottleneck structure inspired by MobileNetV2, which employs depth-wise separable convolutions to reduce computations.
      - By finding the optimal scaling factors, EfficientNet provides efficient models suitable for resource-constrained devices without sacrificing performance.
