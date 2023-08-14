@@ -4,6 +4,10 @@ Tell about emotion of a person (Angry, Happy, Sad)
 # Running Prototype
 Link : https://huggingface.co/spaces/deep42/Human-Emotion-Detection
 
+# Dataset I Used 
+- For training of model i used dataset available kaggle [here]()
+![download](https://github.com/deep-gtm/Human-Emotion-Detection/assets/70434931/e7dffc98-a007-47d1-b702-66be2d08012f)
+
 # Basic Things I Learned In This Project :
 1. We can use convolution neural network for image classification purpose.
 2. So a basic image classification model consist of two part
