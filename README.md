@@ -11,7 +11,7 @@ Link : https://huggingface.co/spaces/deep42/Human-Emotion-Detection
 
 # Prediction Resutls :
 
-![Uploading download (1).png…]()
+![download (1)](https://github.com/deep-gtm/Human-Emotion-Detection/assets/70434931/905e5b41-f0ba-4baa-9468-1aef1134ebef)
 
 # Basic Things I Learned In This Project :
 1. We can use convolution neural network for image classification purpose.
